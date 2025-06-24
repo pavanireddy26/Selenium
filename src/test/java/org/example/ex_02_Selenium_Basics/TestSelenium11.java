@@ -9,16 +9,9 @@ import org.testng.annotations.Test;
 public class TestSelenium11 {
 
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.edge.EdgeDriver;
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
-
-    public class TestSelenium11 {
 
         @Test(description = "Open the URL")
-        public void test_selenium010() throws Exception {
+        public void test_selenium11() throws Exception {
 
             ChromeDriver driver = new ChromeDriver();
             //driver = new FirefoxDriver
@@ -27,11 +20,11 @@ import org.testng.annotations.Test;
             driver1 = new FirefoxDriver();
 
 
-
             driver.get("");
             driver.manage().window().maximize();
 
 
+        }}
 
 
 
@@ -46,7 +39,3 @@ import org.testng.annotations.Test;
 
 
 
-
-
-
-}
