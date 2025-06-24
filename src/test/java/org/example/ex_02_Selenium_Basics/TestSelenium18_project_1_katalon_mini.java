@@ -7,7 +7,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.testng.annotations.Test;
 
-public class TestSelenium18_project_2_katalon {
+public class TestSelenium18_project_1_katalon_mini {
 
 
     @Test(description = "Verify that with valid email, pass,login")

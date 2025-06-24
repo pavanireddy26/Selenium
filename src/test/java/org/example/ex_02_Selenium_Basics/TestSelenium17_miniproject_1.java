@@ -25,7 +25,7 @@ public class TestSelenium17_miniproject_1 {
 //        driver.navigate().to("https://app.vwo.com");
         driver.get("https://app.vwo.com");
 
-    //driver.manage().window().maximize();
+    driver.manage().window().maximize();
 
     // 1. Find the email inputbox and enter the email
     // <input open Tag
