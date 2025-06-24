@@ -31,6 +31,6 @@ public class TestSelenium12 {
 
         Thread.sleep(5000);
 
-    driver.quit();
+        driver.quit();
     }
 }
