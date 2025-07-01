@@ -6,7 +6,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 
-    public class TestSelenium10_MiniProject {
+  public class TestSelenium10_MiniProject {
 
         @Test(description = "Open the URL")
         public void test_selenium010() throws Exception {

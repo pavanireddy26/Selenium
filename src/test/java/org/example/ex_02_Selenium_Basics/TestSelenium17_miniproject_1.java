@@ -11,15 +11,11 @@ import org.testng.annotations.Test;
 
 public class TestSelenium17_miniproject_1 {
 
-
-
     @Test(description ="Verify that with invalid email, pass, error message is shown on the app.vwo.com")
     public void test_negative_vwo_login() throws Exception {
 
-
     EdgeOptions edgeOptions = new EdgeOptions();
        // edgeOptions.addArguments("--start-maximized");
-
 
     WebDriver driver = new EdgeDriver(edgeOptions);
 //        driver.navigate().to("https://app.vwo.com");
@@ -49,11 +45,8 @@ public class TestSelenium17_miniproject_1 {
     // data-qa="jobodapuxe">
 
 
-
-
     WebElement passwordInputBox = driver.findElement(By.name("password"));
         passwordInputBox.sendKeys("admin");
-
 
 
     // 3. Find the submit button and click on it.
@@ -82,20 +75,7 @@ public class TestSelenium17_miniproject_1 {
     WebElement error_message = driver.findElement(By.className("notification-box-description"));
         Assert.assertEquals(error_message.getText(),"Your email, password, IP address or location did not match");
 
-
-
-
-
         driver.quit();
-
-
-
-
-
-
-
-
-
 
 
 }

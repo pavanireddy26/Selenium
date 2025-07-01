@@ -10,7 +10,7 @@ import org.testng.annotations.Test;
 public class TestSelenium18_project_1_katalon_mini {
 
 
-    @Test(description = "Verify that with valid email, pass,login")
+    @Test(description = "Verify that with valid email, pass,login,appoinment page is loaded")
     public void test_positive() throws Exception {
 
 
@@ -18,11 +18,10 @@ public class TestSelenium18_project_1_katalon_mini {
         WebDriver driver = new EdgeDriver(edgeOptions);
         driver.get("https://katalon-demo-cura.herokuapp.com/profile.php#login");
 
-        //driver.manage().window().maximize();
+        driver.manage().window().maximize();
 
         WebElement emailInputBox = driver.findElement(By.id("txt-username"));
         emailInputBox.sendKeys("John Doe");
-//<input type="text" class="form-controhttps://katalon-demo-cura.herokuapp.com/l" id="txt-username" name="username" placeholder="Username" value="" autocomplete="off">
 
 
         WebElement passwordInputBox = driver.findElement(By.id("txt-password"));
@@ -36,16 +35,6 @@ public class TestSelenium18_project_1_katalon_mini {
 
       Thread.sleep(3000);
       driver.quit();
-
-
-
-
-
-
-
-
-
-
 
 
     }
