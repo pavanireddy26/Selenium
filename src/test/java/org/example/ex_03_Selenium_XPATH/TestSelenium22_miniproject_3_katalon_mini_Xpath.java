@@ -1,4 +1,4 @@
-package org.example.ex_02_Selenium_XPATH;
+package org.example.ex_03_Selenium_XPATH;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
